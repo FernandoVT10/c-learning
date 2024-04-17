@@ -3,3 +3,6 @@ htoi: htoi.c
 
 escape: escape.c
 	gcc -o ./bin/escape escape.c
+
+expand: expand.c
+	gcc -o ./bin/expand expand.c
